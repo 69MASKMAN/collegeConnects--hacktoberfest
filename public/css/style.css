@@ -1,0 +1,64 @@
+body{
+  background-color: #f5f5f5;
+}
+
+/* Header Section */
+
+#header {
+  background-color: #5fdde5;
+}
+
+.logo-image {
+  height: 150px;
+  width: 150px;
+  margin-left: 70px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #0779e4;
+    font-size: 15px;
+}
+
+.carousel-item{
+  padding: 3% 13%;
+}
+
+.testimonial-text{
+  text-align: center;
+}
+
+/* Features Section */
+
+#features{
+  text-align: center;
+  padding: 6% 0 6% 0;
+  position: relative;
+}
+
+.features-button{
+  color: #82c4c3;
+  padding-bottom: 3%;
+}
+
+.features-button:hover{
+  color: #5fdde5;
+}
+
+
+/* Footer Section */
+#footer {
+  background-color: #5fdde5;
+  text-align: center;
+  padding: 3% 0 1.1% 0;
+}
+
+.footer-button {
+  color: white;
+  margin: 8px 8px 8px 8px;
+}
+
+.footer-text {
+  color: white;
+  margin-top: 10px;
+  font-size: 20px;
+}

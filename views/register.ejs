@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="images/icon.png">
+
+    <title>Signup!</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/sign-in/">
+
+    <!-- Bootstrap Files CDN link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap-social.css"  />
+
+    <!-- Custom styles for this template -->
+    <link href="css/signin.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-8">
+          <form class="form-signin form-features" action="/register" method="POST">
+            <img class="mb-4" src="images/icon.png" alt="" width="72" height="72">
+            <h1 class="h3 mb-3 font-weight-normal">Please Signup</h1>
+            <input type="email" name="userEmail" class="form-control" placeholder="Email address" required autofocus>
+            <input type="password" name="userPassword" class="form-control" placeholder="Password" required>
+            <div class="checkbox mb-3">
+              <label>
+                <input type="checkbox" value="remember-me"> Remember me
+              </label>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Signup</button>
+          </form>
+        </div>
+
+        <!-- Vertical line -->
+        <div class="vr">&nbsp;</div>
+
+        <!-- other login options -->
+        <div class="col-lg-2 social-media">
+          <div class="google-button social-media-button">
+            <a class="btn btn-block btn-social btn-google" href="/auth/google" role="button">
+              <i class="fab fa-google"></i>
+              signup | google
+            </a>
+          </div>
+          <div class="facebook-button social-media-button">
+            <a class="btn btn-block btn-social btn-facebook" href="" role="button">
+              <i class="fab fa-facebook"></i>
+              signup | facebook
+            </a>
+          </div>
+          <div class="instagram-button social-media-button">
+            <a class="btn btn-block btn-social btn-instagram" href="" role="button">
+              <i class="fab fa-instagram"></i>
+              signup | instagram
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+  </body>
+</html>

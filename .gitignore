@@ -1,0 +1,7 @@
+# Excluding files
+
+#1st file
+node_modules
+
+#2nd file
+.env
