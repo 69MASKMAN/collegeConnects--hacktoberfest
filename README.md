@@ -1,6 +1,6 @@
-#collegeConnects
+# collegeConnects
 
-A Collaborative platform for integrating the College Events across the country and providing oppurtunity to college events to take part in various #Technical and #Cultural Events
+A Collaborative platform for integrating the College Events across the country and providing oppurtunity to college events to take part in various # Technical and # Cultural Events
 Features to be made : 
   (a) Registration of college
   (b) Registration of students
